@@ -8,6 +8,7 @@ Becamp::Application.routes.draw do
   get '/schedule', to: 'content#schedule'
   get '/sponsors', to: 'content#sponsors'
   get '/contact', to: 'content#contact'
+  get '/privacy', to: 'content#privacy'
 
   get '/past_schedules', to: 'content#past'
   get '/schedule_2014', to: 'content#schedule_2014'
